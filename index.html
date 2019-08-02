@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="mainBox">
+        <div id="spikes">
+            <div id="spikeHolder">
+                <div id="spike1" onclick="selectSpike(this)"></div>
+                <div id="spike11" onclick="selectBlock(this)"></div>
+                <div id="spike12" onclick="selectBlock(this)"></div>
+                <div id="spike13" onclick="selectBlock(this)"></div>
+                <div id="spike14" onclick="selectBlock(this)"></div>
+                <div id="spike15" onclick="selectBlock(this)"></div>
+                <div id="spike16" onclick="selectBlock(this)"></div>
+                <div id="spike17" onclick="selectBlock(this)"></div>
+                <div id="spike18" onclick="selectBlock(this)"></div>
+            </div>
+            <div id="spikeHolder">
+                <div id="spike2" onclick="selectSpike(this)"></div>
+                <div id="spike21" onclick="selectBlock(this)"></div>
+                <div id="spike22" onclick="selectBlock(this)"></div>
+                <div id="spike23" onclick="selectBlock(this)"></div>
+                <div id="spike24" onclick="selectBlock(this)"></div>
+                <div id="spike25" onclick="selectBlock(this)"></div>
+                <div id="spike26" onclick="selectBlock(this)"></div>
+                <div id="spike27" onclick="selectBlock(this)"></div>
+                <div id="spike28" onclick="selectBlock(this)"></div>
+            </div>
+            <div id="spikeHolder">
+                <div id="spike3" onclick="selectSpike(this)"></div>
+                <div id="spike31" onclick="selectBlock(this)"></div>
+                <div id="spike32" onclick="selectBlock(this)"></div>
+                <div id="spike33" onclick="selectBlock(this)"></div>
+                <div id="spike34" onclick="selectBlock(this)"></div>
+                <div id="spike35" onclick="selectBlock(this)"></div>
+                <div id="spike36" onclick="selectBlock(this)"></div>
+                <div id="spike37" onclick="selectBlock(this)"></div>
+                <div id="spike38" onclick="selectBlock(this)"></div>
+            </div>
+        </div>
+        <div id="rules">
+            <div id="moveCounter">
+                <p>How to play: Move all the disks one at a time from the leftmost peg to the rightmost peg. A larger disk may not be placed ontop of a smaller disk.</p>
+                <p id="levelNumber">Level 1</p>
+                <p id="moveNumber">Moves: 0</p>
+                <p id="minNumber">Minimum number of moves for this level: 7</p>
+            </div>
+            <div id="winner">
+                <h1>You Win!</h1><br>
+                <button onclick="nextLevel(true)">Next Level</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+body{background-color: rgb(213,131,188,0.6);}
+
+#mainBox {
+  width: 1300px;
+  height: 700px;
+  border: 1px;
+  margin: auto;
+}
+
+#spikes {
+  border:;
+  border-bottom: solid 20px;
+  width: 1307px;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#rules {
+  border: solid;
+  width: 1300px;
+  height: 200px;
+  display: flex;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: rgb(213,131,188,1);
+}
+
+#winner {
+  margin: auto;
+  width: 200px;
+  height: 100px;
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: arial;
+}
+
+#moveCounter {
+ height: 120px;
+ width: 520px;
+ position: absolute;
+ margin: 15px 0px 0px 10px;
+ font-family: arial;
+}
+
+#winner button {
+  height: 50px;
+  margin-top: -20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#spikeHolder {
+  width: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+#spike1, #spike2, #spike3 { 
+  width: 20px;
+  height: 260px;
+  background: black;
+  position: absolute;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+
+#spike11, #spike21, #spike31 {
+  height: 30px;
+  background: #FFDC00;
+  min-width: 70px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#spike12, #spike22, #spike32 {
+  height: 30px;
+  min-width: 100px;
+  background: #FF4136;
+  z-index: 1;
+  border-radius: 5px;
+} 
+
+#spike13, #spike23, #spike33 {
+  height: 30px;
+  background: #0074D9;
+  min-width: 130px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/*extra levels */
+
+#spike14, #spike24, #spike34 {
+  height: 30px;
+  background: #2ECC40;
+  min-width: 160px;
+  z-index: 1;
+  display: none;
+  border-radius: 5px;
+}
+
+#spike15, #spike25, #spike35 {
+  height: 30px;
+  background: #B10DC9;
+  min-width: 190px;
+  z-index: 1;
+  display: none;
+  border-radius: 5px;
+}
+
+#spike16, #spike26, #spike36 {
+  height: 30px;
+  background: #7FDBFF;
+  min-width: 220px;
+  z-index: 1;
+  display: none;
+  border-radius: 5px;
+}
+
+#spike17, #spike27, #spike37 {
+  height: 30px;
+  background: #FF851B;
+  min-width: 250px;
+  z-index: 1;
+  display: none;
+  border-radius: 5px;
+}
+
+#spike18, #spike28, #spike38 {
+  height: 30px;
+  background: #3D9970;
+  min-width: 280px;
+  z-index: 1;
+  display: none;
+  border-radius: 5px;
+}
+
+/*Extra Levels END*/
+
+#spike21, #spike22, #spike23, #spike31, #spike32, #spike33 {
+  display: none;
+}
