@@ -11,4 +11,4 @@
 </ul>
 <br>
 <p>So please enjoy and let me know what you think, or if you come across any bugs!</p>
-<a href="https://paulmartin91.github.io/Hangman/">Give it a go!</a>
+<a href="https://paulmartin91.github.io/Tower-of-Hanoi/">Give it a go!</a>
